@@ -30,7 +30,7 @@ namespace Teste_Target_Sistemas.Services
                     count++;
                 }
             }
-            Console.WriteLine($"A media de faturamento no mes foi de: {media}");
+            Console.WriteLine($"A media de faturamento no mes foi de: {media.ToString("F2")}");
             return count;
         }
     }

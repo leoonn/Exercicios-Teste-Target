@@ -101,8 +101,8 @@ namespace Teste_Target_Sistemas
                     maiorvalor = ServiceFat.MaiorValorEmUmDia(faturamento);
                     diasSuperiorAMedia = ServiceFat.DiasSuperiorAMedia(faturamento);
 
-                    Console.WriteLine($"O menor valor é: {menorValor}");
-                    Console.WriteLine($"O maior valor é: {maiorvalor}");
+                    Console.WriteLine($"O menor valor é: {menorValor.ToString("F2")}");
+                    Console.WriteLine($"O maior valor é: {maiorvalor.ToString("F2")}");
                     Console.WriteLine($"Houve {diasSuperiorAMedia} dias em que o valor diario de faturamento foi maior que a média");
                 }
             }
