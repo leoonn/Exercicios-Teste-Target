@@ -86,7 +86,7 @@ namespace Teste_Target_Sistemas
         }
         static void Exercise3()
         {
-
+            //Será necessario alterar o path com o do seu computador
             string pathJson = @"C:\Users\USERS\OneDrive\Documentos\GitHub\Exercicios-Teste-Target-Sistemas\Exercicios-Teste-Target-Sistemas\Json-Exercicio-3\dados.json";
 
             if (File.Exists(pathJson))
